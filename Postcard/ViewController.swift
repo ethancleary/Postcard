@@ -33,6 +33,7 @@ class ViewController: UIViewController {
     @IBAction func sendMailButtonPressed(sender: UIButton) {
         //When a function is called we can pass it information i.e. parameter 'sender'
         //Normall you would created a seperate function for each button
+        //Test of new commit on Git
 
         messageLabel.hidden = false
         messageLabel.text = enterMessageTextField.text
